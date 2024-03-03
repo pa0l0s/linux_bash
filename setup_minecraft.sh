@@ -30,3 +30,5 @@ systemctl enable minecraft
 
 systemctl start minecraft
 
+#TCP Port: 25565
+#UDP Port: 19132
