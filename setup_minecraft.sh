@@ -39,3 +39,12 @@ wget https://ci.ender.zone/job/EssentialsX/lastSuccessfulBuild/artifact/jars/Ess
 wget https://ci.ender.zone/job/EssentialsX/lastSuccessfulBuild/artifact/jars/EssentialsXChat-2.21.0-dev+68-993d7ed.jar
 wget https://ci.ender.zone/job/EssentialsX/lastSuccessfulBuild/artifact/jars/EssentialsXSpawn-2.21.0-dev+68-993d7ed.jar
 
+apt-get install vsftpd
+
+apt-get install net-tools
+
+adduser minecraft
+
+cd /opt/
+chown -R minecraft:minecraft minecraft
+
